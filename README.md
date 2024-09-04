@@ -3,13 +3,12 @@
 - **using a docker image**
   - docker run --interactive --tty --rm ubuntu:22.04
 
-  ```markdown
-!root@938091c5f519
+  - root@938091c5f519
   - after running above docker image, ping not work, to resolve: 
-  ```markdown
-!install ping:
-!apt update
-!apt install iputils-ping
+ 
+  - install ping:
+  - apt update
+  - apt install iputils-ping
 
 
 
