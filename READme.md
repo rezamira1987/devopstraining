@@ -14,7 +14,12 @@ root@2b2b7398facd
 this flag cause to remove container after exitting from that container, if we want to keep the container, we should use --name flag instead.
 
 ## reza@ubuntu-std:~/git$ sudo docker ps -a
-<!-- CONTAINER ID   IMAGE          COMMAND       CREATED          STATUS                     PORTS     NAMES
-dc5886d4f9b1   ubuntu:22.04   "/bin/bash"   37 seconds ago   Exited (0) 4 seconds ago             my_ubuntu_container -->
+CONTAINER ID   IMAGE          COMMAND       CREATED          STATUS                     PORTS     NAMES
+dc5886d4f9b1   ubuntu:22.04   "/bin/bash"   37 seconds ago   Exited (0) 4 seconds ago             my_ubuntu_container
 as you can see above, after removing --rm and adding --name instead, the container will be kept. 
+
+--> docker start my_ubuntu_container
+--> docker attach my_ubuntu_container
+after above commands, we can go to the docker state that we left before, i mean ping is available on the docker
+ 
 
