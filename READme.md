@@ -1,9 +1,9 @@
 docker run --interactive --tty --rm ubuntu:22.04
 root@938091c5f519
-# after running above docker image, ping not work, to resolve: 
-# install ping
-apt update
-apt install iputils-ping
+after running above docker image, ping not work, to resolve: 
+install ping:
+<!-- apt update
+apt install iputils-ping -->
 
 # exit from above container and using first command (line-1) can cause to remove all things that we installed.
 
