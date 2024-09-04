@@ -23,9 +23,11 @@
       dc5886d4f9b1   ubuntu:22.04   "/bin/bash"   37 seconds ago   Exited (0) 4 seconds ago             my_ubuntu_container
 
   - as you can see above, after removing --rm and adding --name instead, the container will be kept. 
+  - now, we can start it again and connect to it for the second time with all apt that be installed in the first time.
+  ```markdown
+   docker start my_ubuntu_container
+   docker attach my_ubuntu_container
 
---> docker start my_ubuntu_container
---> docker attach my_ubuntu_container
 after above commands, we can go to the docker state that we left before, i mean ping is available on the docker
  
 
