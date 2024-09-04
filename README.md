@@ -28,7 +28,7 @@
    docker start my_ubuntu_container
    docker attach my_ubuntu_container
 
-after above commands, we can go to the docker state that we left before, i mean ping is available on the docker
+  - after above commands, we can go to the docker state that we left before, i mean ping is available on the docker
  
 
 
