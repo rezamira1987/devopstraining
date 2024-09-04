@@ -10,14 +10,6 @@
      apt install iputils-ping
 
 
-
-
-
-
-
-
-
-
 # exit from above container and using first command (line-1) can cause to remove all things that we installed.
 
 # exit and run again first line command:
