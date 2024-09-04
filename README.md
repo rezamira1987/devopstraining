@@ -11,7 +11,7 @@
      apt install iputils-ping
 
   - exitting from above container and using first command again, can cause to remove all things that be installed, also the image name will change
-   ```markdown
+     ```markdown
      root@2b2b7398facd
 
   
