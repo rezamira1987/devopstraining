@@ -1,7 +1,7 @@
 ### 1. **Docker preview**
 
 - **using a docker image**
-  docker run --interactive --tty --rm ubuntu:22.04 \n
+  docker run --interactive --tty --rm ubuntu:22.04 /n
   root@938091c5f519 \n
   after running above docker image, ping not work, to resolve: \n
    - ***install ping:***
