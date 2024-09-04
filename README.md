@@ -15,7 +15,7 @@
      root@2b2b7398facd
 
   - rm flag (--rm)
-      this flag cause to remove container after exitting from that container, if we want to keep the container, we should use --name flag instead.
+       this flag cause to remove container after exitting from that container, if we want to keep the container, we should use --name flag instead.
 
 
 
