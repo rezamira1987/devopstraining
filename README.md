@@ -30,6 +30,7 @@
  
   - after above commands, we can go to the docker state that we left before, i mean ping is available on the docker
  
+
 - **build a container**
   - **definition**
     - one of the most important thing in docker, is preparing an environment with all requirements and then creating a image for using by other guys.
@@ -40,6 +41,9 @@
       RUN apt update && apt install iputils-ping --yes
       EOF
   - now you can connet to image that you created and check to see the ping is working or no.
+
+
+
 
 
 ### 4. **Preview and Edit the Markdown:**
