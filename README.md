@@ -6,8 +6,9 @@
   after running above docker image, ping not work, to resolve: \n
    - ***install ping:***
      ```markdown
-        !apt update
-        !apt install iputils-ping
+    apt update
+    apt install iputils-ping```
+    
 
 
 
