@@ -1,14 +1,12 @@
 ### 1. **Docker preview**
 
 - **using a docker image**
-  - docker run --interactive --tty --rm ubuntu:22.04
-
-  - root@938091c5f519
-  - after running above docker image, ping not work, to resolve: 
- 
-  - install ping:
-  - apt update
-  - apt install iputils-ping
+  docker run --interactive --tty --rm ubuntu:22.04
+  root@938091c5f519
+  after running above docker image, ping not work, to resolve: 
+   - ***install ping:***
+     apt update
+     apt install iputils-ping
 
 
 
