@@ -5,7 +5,7 @@
     ```markdown
         root@938091c5f519
   - after running above docker image, ping not work, to resolve: 
-  -install ping:
+  - install ping:
      ```markdown
      apt update
      apt install iputils-ping
