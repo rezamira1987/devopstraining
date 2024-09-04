@@ -24,9 +24,9 @@
 
   - as you can see above, after removing --rm and adding --name instead, the container will be kept. 
   - now, we can start it again and connect to it for the second time with all apt that be installed in the first time.
-  ```markdown
-    docker start my_ubuntu_container
-    docker attach my_ubuntu_container
+    ```markdown
+      docker start my_ubuntu_container
+      docker attach my_ubuntu_container
  
   - after above commands, we can go to the docker state that we left before, i mean ping is available on the docker
  
