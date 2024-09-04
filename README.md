@@ -12,8 +12,9 @@
 
   - exitting from above container and using first command again, can cause to remove all things that be installed, also the image name will change
    ```markdown
-       root@2b2b7398facd
-       
+     root@2b2b7398facd
+
+  
   - --rm
       this flag cause to remove container after exitting from that container, if we want to keep the container, we should use --name flag instead.
 
