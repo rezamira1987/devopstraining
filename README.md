@@ -32,7 +32,7 @@
  
 - **build a container**
   - ***definition***
-  one of the most important thing in docker, is preparing an environment with all requirements and then creating a image for using by other guys.
+  - one of the most important thing in docker, is preparing an environment with all requirements and then creating a image for using by other guys.
 
 
 
