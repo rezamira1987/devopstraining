@@ -33,6 +33,12 @@
 - **build a container**
   - **definition**
     - one of the most important thing in docker, is preparing an environment with all requirements and then creating a image for using by other guys.
+  - **required commands to create a docker image**
+    ```markdown
+      sudo docker build  --tag my_ubuntu_image --<<EOF
+      FROM ubuntu:22.04
+      RUN apt update && apt install iputils-ping --yes
+      EOF
 
 
 
