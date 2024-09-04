@@ -23,3 +23,6 @@ as you can see above, after removing --rm and adding --name instead, the contain
 after above commands, we can go to the docker state that we left before, i mean ping is available on the docker
  
 
+
+
+### 4. **just test to see:**
