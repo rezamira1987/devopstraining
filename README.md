@@ -16,6 +16,9 @@
 
   - rm flag (--rm):
      - this flag cause to remove container after exitting from that container, if we want to keep the container, we should use --name flag instead.
+     ```markdown
+      docker run --interactive --tty --name my_ubuntu ubuntu:22.04
+      
 
 
 
